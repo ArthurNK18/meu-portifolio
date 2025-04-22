@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(#000 0%, #1B003B 60%, #8A2BE2 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 1000px;
+}
+
+#title-content {
+    font-family: "Kings";
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0;
+    color: #1FEF26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
