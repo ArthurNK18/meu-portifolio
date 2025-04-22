@@ -9,11 +9,29 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-bottom: 1000px;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+}
+
+.title:hover .crown{
+    transform: translateX(-8) rotate(-10deg);
+
+}
+
+
+.crown {
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    height: 32px;
+    position: transform 03s ease;
+
 }
 
 #title-content {
-    font-family: "Kings";
     text-align: center;
     font-size: 60px;
     margin: 20px 0;
@@ -22,4 +40,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 250px;
+}
+
+#title {
+    font-family: "Kings";
 }
